@@ -1,0 +1,72 @@
+.hero {
+  max-width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 16px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-bottom: 5px;
+}
+
+.hero::before {
+  position: absolute;
+  content: "";
+  background: #ae42c9;
+  background-image: linear-gradient(to left, #752ba0, #ce4fe0);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+}
+
+.hero__left {
+  flex: 0.5;
+}
+
+.hero__right {
+  flex: 0.4;
+}
+
+.hero__waveDiv {
+  bottom: -40px;
+  width: 100%;
+  position: absolute;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .hero {
+    max-width: 980px;
+    padding-top: 70px;
+  }
+
+  .hero__waveDiv {
+    padding-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    max-width: 700px;
+  }
+
+  .hero__left {
+    flex: 1;
+    order: 1;
+  }
+
+  .hero__right {
+    flex: 1;
+    order: 2;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .hero {
+    padding-top: 42px;
+  }
+}

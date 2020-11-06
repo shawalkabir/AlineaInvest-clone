@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600;700&display=swap");
+
+.promo {
+  max-width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 135px;
+  padding-bottom: 95px;
+}
+
+.promo__textDiv {
+  margin-bottom: 40px;
+}
+
+.promo__textDiv > h2 {
+  font-size: 38px;
+  margin-bottom: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  line-height: 1.21;
+  color: initial;
+  text-align: center;
+}
+
+.promo__cards {
+  justify-content: center;
+}
+
+.promo__cardDiv {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 1200px) {
+  .promo {
+    max-width: 980px;
+  }
+
+  .promo__textDiv > h2 {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .promo__cardDiv {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .promo__card {
+    margin-bottom: 20px;
+  }
+
+  .promo {
+    padding-top: 120px;
+  }
+
+  .card__items > p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .promo {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .promo__textDiv > h2 {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .promo__textDiv > h2 {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .promo__textDiv > h2 {
+    font-size: 22px;
+  }
+  .card__items > p {
+    font-size: 14px;
+  }
+}

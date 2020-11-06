@@ -1,0 +1,28 @@
+.carousel__image > img {
+  max-width: 172.5px;
+  margin-right: 15px;
+  user-select: none;
+}
+
+.slick-dots {
+  bottom: -65px !important;
+}
+
+.slick-dots li button:before {
+  font-size: 12px !important;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 1 !important;
+  color: #ae42c9 !important;
+}
+
+@media only screen and (max-width: 480px) {
+  .slick-dots {
+    bottom: -50px !important;
+  }
+
+  .slick-dots li button:before {
+    font-size: 9px !important;
+  }
+}

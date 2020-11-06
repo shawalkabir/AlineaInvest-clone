@@ -1,0 +1,34 @@
+.heroright {
+  position: relative;
+  z-index: 2;
+}
+
+.heroright > img {
+  height: 535px;
+  width: 440px;
+  margin-top: -30px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .heroright > img {
+    height: 495px;
+    width: 431px;
+    margin-top: -34px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .heroright > img {
+    height: 487px;
+    width: 456px;
+    margin-top: 70px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .heroright > img {
+    height: 418px;
+    width: 305px;
+    margin-top: 30px;
+  }
+}

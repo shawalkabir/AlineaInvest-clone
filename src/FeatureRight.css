@@ -1,0 +1,8 @@
+.featureright {
+  display: flex;
+  flex-direction: column;
+}
+
+.featureright__item {
+  margin-bottom: 48px;
+}

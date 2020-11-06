@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600;700&display=swap");
+
+.heroleft {
+  position: relative;
+  z-index: 2;
+}
+
+.heroleft__text > h1 > span {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.heroleft__text > h1 {
+  margin-bottom: 7px;
+  font-weight: 500;
+  font-size: 42px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+}
+
+.heroleft__rocket > h3 {
+  font-size: 32px;
+  margin-top: 32px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.heroleft__imgDiv {
+  padding: 24px 0;
+}
+
+.heroleft > p {
+  line-height: 3.5;
+  margin-bottom: 22px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+}
+
+.heroleft__rocket {
+  display: flex;
+}
+
+.heroleft__rocket > span {
+  margin-top: 30px;
+  font-size: 29px;
+  margin-left: 5px;
+}
+
+.headerleft__button {
+  background: #ffffff;
+  border-color: #ffffff;
+  color: #ae42c9;
+  border-radius: 30px;
+  padding: 16px 32px;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  text-align: center;
+  justify-content: center;
+  border: 1px solid transparent;
+}
+
+.heroleft__imgDiv {
+  margin-top: 28px;
+}
+
+.heroleft__imgDiv > img {
+  width: 150px;
+  margin-bottom: 3px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .heroleft__imgDiv {
+    margin-top: 16px;
+  }
+  .heroleft__text > h1 {
+    font-size: 40px;
+    margin-bottom: 3px;
+  }
+
+  .heroleft__rocket > h3 {
+    font-size: 25px;
+  }
+
+  .heroleft > p {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .heroleft__rocket > h3 {
+    font-size: 33px;
+    margin-top: 19px;
+  }
+
+  p {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .heroleft__rocket > h3 {
+    font-size: 26px;
+  }
+
+  .heroleft__rocket > span {
+    margin-top: 13px;
+  }
+  .heroleft > p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .heroleft__rocket > h3 {
+    font-size: 23px;
+    margin-bottom: 18px;
+  }
+
+  .heroleft > p {
+    font-size: 19px;
+    line-height: 39px;
+    margin-bottom: 47px;
+  }
+
+  .heroleft__rocket > span {
+    margin-top: 13px;
+    font-size: 26px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .heroleft__text > h1 {
+    font-size: 32px;
+  }
+
+  .heroleft__rocket > h3 {
+    font-size: 20px;
+  }
+
+  .heroleft > p {
+    font-size: 17px;
+    line-height: 32px;
+    margin-bottom: 40px;
+  }
+
+  .heroleft__text > h1 > span {
+    font-size: 30px;
+  }
+
+  .heroleft__rocket > span {
+    margin-top: 15px;
+    font-size: 23px;
+  }
+}

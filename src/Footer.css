@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600;700&display=swap");
+
+.footer {
+  padding: 20px 0;
+  background: #fff;
+}
+
+.footer__container {
+  max-width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer__text > p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  padding-bottom: 20px;
+  color: gray;
+}
+
+.footer__copyright > p {
+  font-size: 15px;
+  text-align: center;
+  color: gray;
+}
+
+@media only screen and (max-width: 1200px) {
+  .footer__container {
+    max-width: 900px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .footer__container {
+    max-width: 670px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .footer__container {
+    max-width: 310px;
+  }
+}

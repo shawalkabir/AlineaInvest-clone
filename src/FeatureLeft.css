@@ -1,0 +1,8 @@
+.featureleft {
+  display: flex;
+  flex-direction: column;
+}
+
+.featureleft__item {
+  margin-bottom: 48px;
+}

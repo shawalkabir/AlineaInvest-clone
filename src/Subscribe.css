@@ -1,0 +1,156 @@
+.subscribe {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+}
+
+.subscribe > img {
+  width: 100%;
+  position: absolute;
+  max-width: none;
+  height: auto;
+  top: -2px;
+}
+
+.subscribe__containerDiv {
+  position: absolute;
+  top: 8px;
+  width: 100%;
+}
+
+.subscribe__container {
+  max-width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.subscribe__input {
+  position: absolute;
+  justify-content: center;
+  display: inline-block;
+}
+
+.subscribe__input > input[type="email"] {
+  padding: 17px 15px;
+  border-radius: 30px;
+  border: 1px solid #ced4da;
+  width: 580px;
+  outline-width: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+}
+.subscribe__input > input[type="submit"] {
+  font-size: 15px;
+  position: absolute;
+  right: 4px;
+  border-radius: 30px;
+  padding: initial;
+  top: 4px;
+  bottom: 4px;
+  width: 35%;
+  color: #fff;
+  box-shadow: 0 20px 30px 0 rgba(67, 37, 204, 0.2);
+  background: #ae42c9;
+  border: 2px solid #ae42c9;
+  cursor: pointer;
+}
+
+.subscribe__input > input[type="submit"]:hover {
+  background: #fff;
+  color: #ae42c9;
+}
+
+.subscribe__section {
+  display: block;
+}
+
+.subscribe__sectionImg {
+  position: relative;
+  display: block;
+  width: 100%;
+  background: center top / cover no-repeat rgb(174, 66, 201);
+  padding-top: 150px;
+  padding-bottom: 48px;
+}
+
+.subscribe__sectionImg::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.subscribe__sectionContainer {
+  max-width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.subscribe__sectionItems {
+  position: relative;
+  z-index: 2;
+  max-width: 30%;
+  color: #ffffff;
+}
+
+.subscribe__sectionItems > img {
+  max-width: 220px;
+  margin-bottom: 16px;
+}
+
+.subscribe__sectionItems > p {
+  font-size: 22px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.subscribe__social {
+  display: flex;
+}
+
+.subscribe__socialIcons {
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .subscribe__sectionContainer {
+    max-width: 900px;
+  }
+
+  .subscribe__input > input[type="email"] {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .subscribe__sectionContainer {
+    max-width: 670px;
+  }
+  .subscribe__input > input[type="email"] {
+    width: 450px;
+  }
+
+  .subscribe__sectionItems {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .subscribe__sectionContainer {
+    max-width: 310px;
+  }
+
+  .subscribe__containerDiv {
+    display: none;
+  }
+
+  .subscribe__sectionImg {
+    padding-top: 85px;
+  }
+}
